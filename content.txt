@@ -18,5 +18,13 @@ Ans: Because anything random datatype like lst,dict,set all are written inside c
   . Encapsulation
   . getter and setter
   . static method
-  . Inheritance 
+
+6. Inheritance 
+  . Inheritance code examples
+  . why inheritance is needed? (code reuability,parent has no access to the child class)
+  . what gets inherited? - Constructor,Non private attributes, Non privated method
+  . constructor overloading and method overloading 
+  . super keyword(can be used only inside the class , cannot access variables/attributes,used only inside child class)
+  . Types of inheritance - 1.single inheritance, 2. Multilevel, 3. Hierarchical, 4. Multiple<Diamond Problem>, 5.Hybrid
+
   
