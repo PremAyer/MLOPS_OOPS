@@ -4,3 +4,14 @@
    .attributes get called itself, methods are called manually
 3.why python is called oop?
 Ans: Because anything random datatype like lst,dict,set all are written inside class.
+4.Advantages of oops:
+  . you can create your own datatype
+  . code reusability
+  . debugging
+  . easy to colab 
+
+5. End to end project (chatbook class)
+  . Encapsulation
+  . getter and setter
+  . static method
+  
