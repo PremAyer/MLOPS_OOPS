@@ -11,7 +11,12 @@ Ans: Because anything random datatype like lst,dict,set all are written inside c
   . easy to colab 
 
 5. End to end project (chatbook class)
+  . Function vs method 
+  . Magic method or dhunder method
+  . Self
+  . you can create attributes outside the class as well
   . Encapsulation
   . getter and setter
   . static method
+  . Inheritance 
   

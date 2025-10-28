@@ -1,10 +1,33 @@
 class chatbook:
+    __user_id = 0  #static var
+
     def __init__(self):
+        self.id = chatbook.__user_id
+        chatbook.__user_id +=1
+        self.__name = "Default name" #encapsulation or hidden variable
         self.username = ""
         self.password = ""
         self.loggedin = False
-        self.menu()
+        #self.menu()
     
+    #getter setter for static method
+    @staticmethod
+    def get_id():
+        return chatbook.__user_id
+    
+    @staticmethod
+    def set_id(val):
+        chatbook.__user_id = val
+
+
+
+    #getter and setter
+
+    def get_name(self):
+        return self.__name  #Here we donot use self._chatbook__name because we are inside a class and this self.__name is translated automatically to the self._chatbook__name. it is called name Mangling in python
+    
+    def set_name(self,value):
+        self.__name = value
 
     def menu(self):
         user_input = input('''Welcome to Chatbook !! How would you like to proceed?
